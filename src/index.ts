@@ -25,6 +25,6 @@ export default {
 		env: Env,
 		ctx: ExecutionContext
 	): Promise<Response> {
-		return new Response("Hello World!");
+		return new Response("p1.a9z.dev is (unexpectedly) closed. See @tamaina@misskey.io .", { status: 410, statusText: "Gone" });
 	},
 };
